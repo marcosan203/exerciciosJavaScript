@@ -1,0 +1,104 @@
+Exercício 1: Calculadora de Média
+
+Instruções:
+
+    Crie dois campos de entrada (input) para os alunos inserirem duas notas.
+    Crie um botão (button) para calcular a média.
+    Crie um parágrafo (p) para exibir o resultado.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, pegue os valores dos inputs, converta-os para números e calcule a média.
+    Exiba o resultado no parágrafo.
+
+Exercício 2: Conversor de Temperatura
+
+Instruções:
+
+    Crie um campo de entrada (input) para o aluno inserir a temperatura em Celsius.
+    Crie um botão (button) para converter a temperatura para Fahrenheit.
+    Crie um parágrafo (p) para exibir o resultado.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, pegue o valor do input, converta para número e aplique a fórmula de conversão.
+    Exiba o resultado no parágrafo.
+
+Exercício 3: Contador de Caracteres
+
+Instruções:
+
+    Crie um campo de entrada (input) para o aluno inserir um texto.
+    Crie um botão (button) para contar os caracteres.
+    Crie um parágrafo (p) para exibir o resultado.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, pegue o valor do input e conte o número de caracteres.
+    Exiba o resultado no parágrafo.
+
+Exercício 4: Verificador de Palíndromo
+
+Instruções:
+
+    Crie um campo de entrada (input) para o aluno inserir uma palavra.
+    Crie um botão (button) para verificar se a palavra é um palíndromo.
+    Crie um parágrafo (p) para exibir o resultado.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, pegue o valor do input, remova espaços e verifique se a palavra é igual ao seu reverso.
+    Exiba o resultado no parágrafo.
+
+Exercicio 5: Alterar Bordas de um Elemento
+
+Instruções:
+
+    Crie um campo de entrada (input) para o aluno inserir a espessura da borda (em pixels, como 5px).
+    Crie um botão (button) para aplicar a espessura da borda.
+    Crie uma div cuja borda será alterada.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, pegue o valor do input.
+    Altere o estilo da borda da div usando element.style.borderWidth.
+
+Exercicio 6: Alterar Opacidade de um Elemento
+
+Instruções:
+
+    Crie um campo de entrada (input) para o aluno inserir um valor de opacidade (de 0 a 1, como 0.5).
+    Crie um botão (button) para aplicar a opacidade.
+    Crie uma div cuja opacidade será alterada.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, pegue o valor do input.
+    Altere o estilo de opacidade da div usando element.style.opacity.
+
+Exercicio 7: Alternar Visibilidade
+
+Instruções:
+
+    Crie um botão (button) para alternar a visibilidade de um elemento.
+    Crie uma div que será mostrada ou escondida.
+
+JavaScript:
+
+    Pegue o botão pelo ID.
+    Adicione um listener de clique.
+    Na função de clique, verifique o estado atual da div (visível ou escondida).
+    Altere o estilo de visibilidade da div usando element.style.display (por exemplo, block para mostrar e none para esconder).
+

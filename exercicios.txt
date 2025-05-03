@@ -12,7 +12,7 @@ JavaScript:
     Adicione um listener de clique.
     Na função de clique, pegue os valores dos inputs, converta-os para números e calcule a média.
     Exiba o resultado no parágrafo.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercício 2: Conversor de Temperatura
 
 Instruções:
@@ -27,7 +27,7 @@ JavaScript:
     Adicione um listener de clique.
     Na função de clique, pegue o valor do input, converta para número e aplique a fórmula de conversão.
     Exiba o resultado no parágrafo.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercício 3: Contador de Caracteres
 
 Instruções:
@@ -42,7 +42,7 @@ JavaScript:
     Adicione um listener de clique.
     Na função de clique, pegue o valor do input e conte o número de caracteres.
     Exiba o resultado no parágrafo.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercício 4: Verificador de Palíndromo
 
 Instruções:
@@ -57,7 +57,7 @@ JavaScript:
     Adicione um listener de clique.
     Na função de clique, pegue o valor do input, remova espaços e verifique se a palavra é igual ao seu reverso.
     Exiba o resultado no parágrafo.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercicio 5: Alterar Bordas de um Elemento
 
 Instruções:
@@ -72,7 +72,7 @@ JavaScript:
     Adicione um listener de clique.
     Na função de clique, pegue o valor do input.
     Altere o estilo da borda da div usando element.style.borderWidth.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercicio 6: Alterar Opacidade de um Elemento
 
 Instruções:
@@ -87,7 +87,7 @@ JavaScript:
     Adicione um listener de clique.
     Na função de clique, pegue o valor do input.
     Altere o estilo de opacidade da div usando element.style.opacity.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercicio 7: Alternar Visibilidade
 
 Instruções:

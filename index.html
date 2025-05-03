@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assts/css,/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <main class="content">
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercício 1: Calculadora de Média</p>
+            </div>
+            <div class="area-exercicio">
+                <input type="text" class="txtEntrada" id="primeiraNota" placeholder="Informe a primeira nota">
+                <input type="text" class="txtEntrada" id="segundaNota" placeholder="Informe a segunda nota">
+                <button class="btnExecultar" id="btnCalcularMedia">Calcular a Media</button>
+                <p class="resposta" id="resposta">Media:</p>
+            </div>
+        </section>
+
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercício 2: Conversor de Temperatura</p>
+            </div>
+            <div class="area-exercicio">
+                <input type="text" class="txtEntrada" id="temperatura" placeholder="Informe a temperatura para ser convertida">
+                
+                <button class="btnExecultar" id="btnConverterTemperatura">Converter</button>
+                <p class="resposta" id="temperaturaConvertida">Temperatura:</p>
+            </div>
+        </section>
+
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercício 3: Contador de Caracteres</p>
+            </div>
+            <div class="area-exercicio">
+                <input type="text" class="txtEntrada" id="texto" placeholder="Informe o texto">
+                <button class="btnExecultar" id="btnContarCaracteres">Contar os Caracteres</button>
+                <p class="resposta" id="quantidaDeCaracteres">Quantidade de Caracteres:</p>
+            </div>
+        </section>
+
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercício 4: Verificador de Palíndromo</p>
+            </div>
+            <div class="area-exercicio">
+                <input type="text" class="txtEntrada" id="palindromo" placeholder="Informe uma nova palavra para verificação">
+                <button class="btnExecultar" id="btnVerificaPalidromo">Verificar Palíndromo</button>
+                <p class="resposta" id="respostaPalidromo">Resposta:</p>
+            </div>
+        </section>
+
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercicio 5: Alterar Bordas de um Elemento</p>
+            </div>
+            <div class="area-exercicio">
+                <input type="text" class="txtEntrada" id="entradaTamanhoBorda" placeholder="Informe uma nova palavra para verificação">
+                <button class="btnExecultar" id="btnAplicarEspessura">Aplicar nova Espessura</button>
+                <p class="mensageError" id ='mensageError'></p>
+                <div class="divResposta" id="divResposta">Resposta</div>
+
+            </div>
+        </section>
+        
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercicio 6: Alterar Opacidade de um Elemento</p>
+            </div>
+            <div class="area-exercicio">
+                <input type="text" class="txtEntrada" id="entradaTopacidade" placeholder="Informe um valor de 0 a 1, como 0.5">
+                <button class="btnExecultar" id="btnAplicaropacidade">Aplicar nova opacidade</button>
+                <p class="mensageError" id ='mensageErroOpacidade'></p>
+                <div class="divResposta" id="divOpacidade">Resposta</div>
+
+            </div>
+        </section>
+
+        <section class="exercicio" >
+            <div class="exercicio-area-titulo">
+                <p class="exercicio-titulo">Exercicio 7: Alternar Visibilidade</p>
+            </div>
+            <div class="area-exercicio">
+                <button class="btnExecultar" id="btnAlterarVisibilidade">Alterar Visibilidade</button>
+                <div class="divResposta" id="divAlterarVisibilidade"></div>
+
+            </div>
+        </section>
+        
+    </main>
+    <script src="assts/js,/script.js"></script>
 </body>
 </html>
